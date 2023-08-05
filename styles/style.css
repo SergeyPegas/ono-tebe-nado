@@ -1,3 +1,5 @@
+/* Header */
+
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -9,22 +11,21 @@
   padding-bottom: 2px;
 }
 
+.header__link {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}  
+
 .header__links-list {
   display: flex;
-  gap: 33px;
+  gap: 32px;
   list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
-}
-
-.header__link {
-  color: #000;
-  font-size: 18px;
-  font-weight: 400;
-  border-bottom: 1px solid currentColor;
-  text-decoration: none;
 }
 
 .header__link_active {
@@ -38,23 +39,23 @@
   margin-right: 3px;
 }
 
-.header__adress {
+.header__address {
   justify-self: end;
   padding: 0 3px 2px 0;
 }
 
-.adress {
+.address {
   max-width: 240px;
   font-style: normal;
   font-size: 18px;
   line-height: 1.35;
 }
 
-.adress__links-list {
+.address__links-list {
   list-style: none;
 }
 
-.adress__links-list-item a {
+.address__links-list-item a {
   border-bottom: 1px solid #000;
   text-decoration: none;
 }
