@@ -25,6 +25,10 @@ body {
   border-bottom: 1px solid #000;
 }
 
+.header__link:hover {
+  outline: solid #ccc;
+}
+
 .header__links-list {
   display: flex;
   gap: 32px;
@@ -44,6 +48,10 @@ body {
   justify-self: center;
   width: 136px;
   margin-right: 3px;
+}
+
+.header__logo:hover {
+  transform: scale(1.1);
 }
 
 .header__address {
@@ -67,6 +75,9 @@ body {
   border-bottom: 1px solid #000;
 }
 
+.address__links-list-item:hover {
+  transform: scale(1.05);
+}
 /* Cover */
 
 .cover {
@@ -150,6 +161,10 @@ body {
   text-align: center;
 }
 
+.bet-button:hover {
+  transform: scale(1.1);
+}
+
 /* Lots */
 
 .lots {
@@ -184,6 +199,9 @@ body {
   text-underline-position: under;
 }
 
+.lots__look-more-link:hover {
+  transform: scale(1.1);
+}
 /* Card */
 
 .card {
@@ -211,6 +229,10 @@ body {
 .card-link {
   display: block;
   text-decoration: none;
+}
+
+.card-link:hover {
+  transform: scale(1.07);
 }
 
 .card_type_film {
