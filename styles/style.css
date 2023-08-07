@@ -1,6 +1,6 @@
 /* Body*/
 
-body {
+.body__size {
   max-width: 1440px;
   margin: auto;
 }
@@ -70,14 +70,24 @@ body {
   list-style: none;
 }
 
-.address__links-list-item a {
+.address-phone {
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
 
-.address__links-list-item:hover {
-  transform: scale(1.05);
+.address-phone:hover {
+  border: none;
 }
+
+.address-mail {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+.address-mail:hover {
+  border: none;
+}
+
 /* Cover */
 
 .cover {
@@ -332,6 +342,10 @@ body {
   text-decoration: none;
 }
 
+.footer__menu-link:hover {
+  text-decoration: none;
+}
+
 .footer__social-list {
   display: flex;
   gap: 48px;
@@ -341,4 +355,8 @@ body {
 .footer__social-icon {
   width: 48px;
   height: 48px;
+}
+
+.footer__social-icon:hover {
+  transform: scale(1.5);
 }
